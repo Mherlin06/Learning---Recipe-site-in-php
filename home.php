@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +14,11 @@
 <body class="d-flex flex-column min-vh-100">
     <div class="container">
 
+    <!-- Navigation -->
     <?php include_once('header.php'); ?>
+
+    <!-- Formulaire de connexion -->
+    <?php include_once('login.php'); ?>
         <h1>Site de Recettes !</h1>
 
         <!-- Plus facile à lire -->

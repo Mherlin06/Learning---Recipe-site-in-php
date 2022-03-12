@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $postData = $_POST;
 
@@ -39,6 +40,3 @@ $message = $postData['message'];
                 <p class="card-text"><b>Message</b> : <?php echo strip_tags($message); ?></p>
             </div>
         </div>
-    </div>
-</body>
-</html>
